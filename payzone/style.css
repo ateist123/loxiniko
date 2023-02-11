@@ -1,0 +1,27 @@
+.card{
+    font-size: 15px;
+    border-color: gray;
+    border-width: 1px;
+    align-self: center;
+}
+.cardDate{
+    animation-duration: 1s;
+    animation-name: fromleft;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    width: 30px;
+}
+.cardNum{
+
+}
+@keyframes fromleft {
+    from{
+        border-color: white;
+
+        width: 50px;
+    }
+    to{
+        border-color: gray;
+        width: 30px;
+    }
+}

@@ -1,0 +1,56 @@
+@keyframes heada {
+    from {transform: rotate(10deg);}
+    to {transform: rotate(20deg);}
+
+}
+.title{
+    height: 100px;
+    line-height: 10px;
+    color: steelblue;
+    background-color: lightblue;
+    font-style: italic;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation: heada;
+}
+.tarifs{
+    border: 3px solid darkcyan;
+    child-align: left;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.loxinvestarif{
+    padding: 0 15px 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: orangered;
+    width: 200px;
+
+}
+.midinvestarif{
+    padding: 0 15px 15px;
+    color: orange;
+    font-weight: bolder;
+    align-self: center;
+    text-align: center;
+    width: 200px;
+
+}
+.godinvestarif {
+    padding: 0 15px 15px;
+    color: limegreen;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+    width: 200px;
+    text-transform: uppercase;
+}
+table{
+    border-collapse: collapse;
+}
+th,td,tr{
+    border: 2px dashed mediumaquamarine;
+}

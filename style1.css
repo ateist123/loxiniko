@@ -1,0 +1,10 @@
+.subtitle{
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+.answer{
+    font-family: "Arial";
+    min-width: 100px;
+    max-width: 900px;
+    line-height: 2ch;
+}
